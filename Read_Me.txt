@@ -16,5 +16,4 @@ Known bugs (and things to think of :) ):
 1. If movie name is translated, it won't get original name (didn't find original name support in imdbpy), 
 so in that case there can be duplicates from dbpedia and imdb. It probably can be done with scraping with BeautifulSoup(TODO ...)
 2. There can be duplicates because of different format of movie names in dbpedia and imdb
-3. Imdbpy was not the happiest choise, not sure if it is supported yet for python 3, it needs vs2008 redistirbutables(not sure if it can work with newer).
-   And it is slow.
+3. Imdbpy was not the happiest choise, not sure if it is supported yet for python 3. And it is slow.
